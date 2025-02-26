@@ -1,0 +1,2 @@
+# No external dependencies required for this project
+# The application uses standard libraries: tkinter, json, os, hashlib, datetime

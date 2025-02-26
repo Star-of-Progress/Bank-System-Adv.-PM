@@ -1,0 +1,19 @@
+banking_system/
+├── README.md
+├── requirements.txt
+├── main.py
+├── src/
+│   ├── __init__.py
+│   ├── bank_system.py
+│   ├── data_manager.py
+│   ├── ui/
+│   │   ├── __init__.py
+│   │   ├── login_screen.py
+│   │   ├── admin_dashboard.py
+│   │   ├── client_dashboard.py
+│   │   └── account_details.py
+│   └── utils/
+│       ├── __init__.py
+│       └── security.py
+└── data/
+    └── .gitkeep

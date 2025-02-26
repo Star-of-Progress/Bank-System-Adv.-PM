@@ -1,0 +1,79 @@
+{
+    "users": {
+        "admin": {
+            "password": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
+            "role": "admin",
+            "name": "System Administrator"
+        },
+        "ayau": {
+            "password": "941e9ceb9382a5b92e29051564af27d8b93542331d55211d4264e83e6b7cd60e",
+            "role": "client",
+            "name": "ayau"
+        },
+        "nurbol": {
+            "password": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+            "role": "client",
+            "name": "nurbol"
+        }
+    },
+    "accounts": {
+        "ACC000001": {
+            "owner": "ayau",
+            "type": "savings",
+            "balance": 90.0,
+            "created_at": "2025-02-26 15:59:50",
+            "transactions": [
+                {
+                    "type": "deposit",
+                    "amount": 100.0,
+                    "date": "2025-02-26 15:59:50",
+                    "description": "Initial deposit"
+                },
+                {
+                    "type": "withdraw",
+                    "amount": 10.0,
+                    "date": "2025-02-26 16:00:19",
+                    "description": "Withdraw transaction"
+                },
+                {
+                    "type": "deposit",
+                    "amount": 10.0,
+                    "date": "2025-02-26 16:31:16",
+                    "description": "Deposit transaction"
+                },
+                {
+                    "type": "withdraw",
+                    "amount": 10.0,
+                    "date": "2025-02-26 16:31:24",
+                    "description": "Withdraw transaction"
+                }
+            ]
+        },
+        "ACC000002": {
+            "owner": "nurbol",
+            "type": "checking",
+            "balance": 890.0,
+            "created_at": "2025-02-26 16:01:08",
+            "transactions": [
+                {
+                    "type": "deposit",
+                    "amount": 1000.0,
+                    "date": "2025-02-26 16:01:08",
+                    "description": "Initial deposit"
+                },
+                {
+                    "type": "withdraw",
+                    "amount": 100.0,
+                    "date": "2025-02-26 16:01:26",
+                    "description": "uytre"
+                },
+                {
+                    "type": "withdraw",
+                    "amount": 10.0,
+                    "date": "2025-02-26 16:01:51",
+                    "description": "Withdraw transaction"
+                }
+            ]
+        }
+    }
+}
