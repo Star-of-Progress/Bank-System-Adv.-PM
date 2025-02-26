@@ -7,3 +7,5 @@ Team members:
 5) Aiaulym Kairbayeva, 220103362.
 
 Practice Group 16-p INF395
+
+Good day!
